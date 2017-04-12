@@ -80,7 +80,7 @@ static GLuint CreateShader(const string& text, GLenum shaderType) {
     GLuint shader = glCreateShader(shaderType);
 
     if (shader == 0) {
-        cerr << "Error: Shader creaion failed!" << endl;
+        cerr << "Error: Shader creation failed!" << endl;
     }
 
     const GLchar* shaderSourceStrings[1];

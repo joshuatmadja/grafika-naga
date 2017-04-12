@@ -32,3 +32,36 @@
 1491969165 source:/home/kamal/Desktop/OpenGLTutorialProject/Mesh.cpp
 	"Mesh.h"
 
+1491947914 source:/home/kamal/Desktop/grafika-naga/Display.cpp
+	"Display.h"
+
+1491947921 /home/kamal/Desktop/grafika-naga/Display.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<iostream>
+	<string>
+
+1491980119 source:/home/kamal/Desktop/grafika-naga/Shader.cpp
+	"Shader.h"
+
+1491980084 /home/kamal/Desktop/grafika-naga/Shader.h
+	<iostream>
+	<fstream>
+	<string>
+	<GL/glew.h>
+
+1491971658 source:/home/kamal/Desktop/grafika-naga/Mesh.cpp
+	"Mesh.h"
+
+1491969337 /home/kamal/Desktop/grafika-naga/Mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<iostream>
+
+1491983216 source:/home/kamal/Desktop/grafika-naga/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"Display.h"
+	"Shader.h"
+	"Mesh.h"
+
