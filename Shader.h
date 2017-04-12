@@ -21,7 +21,7 @@ class Shader {
 
     private:
         static int count_shader;
-        static const unsigned int NUM_SHADERS = 10;
+        static const unsigned int NUM_SHADERS = 2;
 
         GLuint m_program;
         GLuint m_shaders[NUM_SHADERS];
