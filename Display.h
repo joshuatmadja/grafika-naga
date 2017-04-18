@@ -12,8 +12,6 @@ class Display {
     public:
         Display(int width, int height, const string& title);
         virtual ~Display();
-        //Display(const Display& display);
-        //Display& operator=(const Display& display);
 
         void Update();
         bool IsClosed();

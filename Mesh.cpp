@@ -27,23 +27,12 @@ Mesh::~Mesh() {
     cout << "DTOR | Mesh | " << count_mesh << endl;
     --count_mesh;
 }
-/*
-Mesh::Mesh(const Mesh& mesh) {
-    //copy ctor
-}
 
-Mesh& Mesh::operator=(const Mesh& mesh) {
-    if (this != &mesh) {
-
-    }
-    return *this;
-}
-//*/
-
-void Mesh::Draw() {
+void Mesh::DrawPolygon() {
     glBindVertexArray(m_vertexArrayObject);
 
     glDrawArrays(GL_POLYGON, 0, m_drawCount);
+    //glDrawArraysInstanced(GL_POLYGON, 0, m_drawCount, 5);
 
     glBindVertexArray(0);
 }

@@ -34,19 +34,7 @@ Display::~Display() {
     cout << "DTOR | Display | " << count_display << endl;
     --count_display;
 }
-/*
-Display::Display(const Display& display) {
-    ++count_display;
-    cout << "CCTOR | Display | " << count_display << endl;
-}
 
-Display& Display::operator=(const Display& display) {
-    if (this != &display) {
-
-    }
-    return *this;
-}
-//*/
 void Display::Update() {
     SDL_GL_SwapWindow(m_window);
 

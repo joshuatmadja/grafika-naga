@@ -96,19 +96,7 @@ static GLuint CreateShader(const string& text, GLenum shaderType) {
 
     return shader;
 }
-/*
-Shader::Shader(const Shader& shader) {
-    ++count_shader;
-    cout << "CCTOR | Shader | " << count_shader << endl;
-}
 
-Shader& Shader::operator=(const Shader& shader) {
-    if (this != &shader) {
-
-    }
-    return *this;
-}
-//*/
 void Shader::Bind() {
     glUseProgram(m_program);
 }

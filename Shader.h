@@ -12,8 +12,6 @@ class Shader {
     public:
         Shader(const string& fileName);
         virtual ~Shader();
-        Shader(const Shader& shader);
-        Shader& operator=(const Shader& shader);
 
         void Bind();
 

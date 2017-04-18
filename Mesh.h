@@ -21,12 +21,8 @@ class Mesh {
     public:
         Mesh(Vertex* vertices, unsigned int numVertices);
         virtual ~Mesh();
-        /*
-        Mesh(const Mesh& mesh);
-        Mesh& operator=(const Mesh& mesh);
-        //*/
 
-        void Draw();
+        void DrawPolygon();
 
     protected:
 
